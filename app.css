@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-image: url("imgs/1.jpg");
+    opacity: 0.95;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.heading{
+    padding: 130px 20px;
+    font-size: 30px;
+}
+
+.h1{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin: auto;
+    max-width: 720px;
+
+}
+
+.button{
+    padding: 15px 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.p2{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 35px;
+    columns: 300px 2;
+    width: 100%;
+    max-width: 720px;
+    align-content: center;
+    margin: auto;
+}
+
+
+.section-a{
+    padding: 30px 20px;
+    font-size: 30px;
+}
+
+.section-b{
+    padding: 35px 35px;
+    background-color: #777;
+}
+
+.section-c{
+    color: #fff;
+}
+
+.section-c-1{
+    background-color: rgb(129, 131, 218);
+    padding: 20px 13px;
+    text-align: justify;
+}
+
+.section-c-2{
+    background-color: rgb(78, 78, 78);
+    padding: 20px 13px;
+    text-align: justify;
+    align-content: center;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+footer div{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 13px;
+    text-align: justify;
+    align-content: center;
+}
+
+.card{
+    margin: 25px 0;
+}
+
+.panel{
+   
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* @media (max-width: 720px;) {
+    .panel{
+        flex-direction: row;
+    }
+} */
